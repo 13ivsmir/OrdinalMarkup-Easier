@@ -23,14 +23,14 @@ let clickCoolDown = 0;
 let infinityButtonText = 0;
 let game;
 const factorShiftCosts = [
-  200,
-  1000,
-  10000,
-  350000,
-  1e12,
-  1e21,
-  1e100,
-  1.095e272,
+  100, // 1th
+  500, // 2th
+  25000, // 3th
+  150000, // 4th
+  1e10, // 5th
+  1e20, // 6th
+  1e100, // 7th
+  1.095e272, // 8th, accessible only before boosters is unlocked
   Infinity
 ];
 const factorCostExp = [2, 2, 2, 3, 3, 6, 30, 100];
