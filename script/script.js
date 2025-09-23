@@ -25,7 +25,7 @@ let game;
 const factorShiftCosts = [
   100, // 1th
   500, // 2th
-  25000, // 3th
+  2500, // 3th
   150000, // 4th
   1e10, // 5th
   1e20, // 6th
